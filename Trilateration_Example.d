@@ -28,7 +28,7 @@ void main()
 	x = ( (y *(a.Y-b.Y) ) -T) /(b.X -a.X);
 
 	
-	writefln("Target: (%f, %f)\n(Press Any Key to Exit)", x, y);
+	writefln("Target: (%f, %f)\n(Press Enter to Exit)", x, y);
 	readln();
 }
 
